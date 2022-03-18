@@ -6,6 +6,8 @@ import Dashboard from "./dashboardpage/dashboard";
 import Doctors from "./component/Docotrs_dashboard";
 //Doctors Profile
 import Doctorsprof from "./DoctorsPROfile/Doctorsprof";
+//block
+import Blockfeatures from "./BLock/Block";
 
 function App() {
   return (
@@ -19,8 +21,13 @@ function App() {
       <Doctorsprof/>
       <Doctorsprof/>
       </div>
+      <div>
+      <Blockfeatures title="Consultations"/>
+      <Blockfeatures title="Tests"/>
+      <Blockfeatures title="Vaccination"/>
+      <Blockfeatures title="Consultation"/>
+      </div>
       
-
     </div>
   );
 }
